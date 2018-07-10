@@ -1,0 +1,30 @@
+{
+  "name": "czarcodrep",
+  "version": "1.0.0",
+  "description": "npm dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/IvanTerrible/czarcodrep.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/IvanTerrible/czarcodrep#readme",
+  "devDependencies": {
+    "browser-sync": "^2.17.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-newer": "^1.2.0",
+    "gulp-notify": "^2.2.0"
+  },
+  "dependencies": {
+    "del": "^2.2.2",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-less": "^3.1.0",
+    "gulp-pug": "^3.1.0"
+  }
+}
