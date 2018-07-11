@@ -3,4 +3,36 @@ html
     title test_template For ext-css
     link(href='style/style.css' rel='stylesheet')
 body
-    h1 hello world
+    header(class="container header" style="background: #daeeff;")
+        div(style="font-size: 20px; text-align:center; padding-top: 20px; padding-bottom: 20px;") шапка страницы
+    main.container.main
+        div.row-flex
+            article(class="main_article col-flex" style="background: #957bbe;")
+                div(style="font-size: 20px; text-align:center; padding-top: 30px; padding-bottom: 30px;") [Основная часть]
+                h1 Level1 titleHeader
+                p Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.
+                h2 Level2 titleHeader
+                p Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.
+                h3 Level3 titleHeader
+                p Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.
+                h4 Level1 titleHeader
+                p Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.
+                div.row-flex
+                    div(class="main_other_article col-flex" style="min-width: 300px; background: yellow;")
+                        div(style="font-size: 20px; text-align:center; padding-top: 30px; padding-bottom: 30px;") [Ещё 1]
+                    div(class="main_other_article col-flex" style="min-width: 300px; background: orange;")
+                        div(style="font-size: 20px; text-align:center; padding-top: 30px; padding-bottom: 30px;") [Ещё 2]
+                    div(class="main_other_article col-flex" style="min-width: 300px; background: pink;")
+                        div(style="font-size: 20px; text-align:center; padding-top: 30px; padding-bottom: 30px;") [Ещё 3]
+
+    footer.ext-container(class="container footer" style="background: cyan;")
+        div.row-flex
+            div.footer_block.col-flex(style="min-width: 200px; background: #0046d0;")
+                div(class="footer_block col-flex" style="min-width: 200px; background: #00d436;")
+                    div(style="font-size: 20px; text-align:center; padding-top: 30px; padding-bottom: 30px;") [Секция футера1]
+                div(class="footer_block col-flex" style="min-width: 200px; background: #007d16;")
+                    div(style="font-size: 20px; text-align:center; padding-top: 30px; padding-bottom: 30px;") [Секция футера2]
+                div(class="footer_block col-flex" style="min-width: 200px; background: #009bd4;")
+                    div(style="font-size: 20px; text-align:center; padding-top: 30px; padding-bottom: 30px;") [Секция футера3]
+                div(class="footer_block col-flex" style="min-width: 200px; background: #0046d0;")
+                    div(style="font-size: 20px; text-align:center; padding-top: 30px; padding-bottom: 30px;") [Секция футера4]
